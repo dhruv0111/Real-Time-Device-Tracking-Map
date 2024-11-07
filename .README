@@ -19,22 +19,19 @@ Installation
 
 bash
 Copy code
-git clone <your-repo-url>
+git clone https://github.com/dhruv0111/Real-Time-Device-Tracking-Map
 cd your-repo
 
 #Install dependencies:
 
-bash
-Copy code
+
 npm install
 Start the server:
 
-bash
-Copy code
 node app.js
 The server should now be running on http://localhost:3000.
 
-Project Setup
+Project Setup:
 Steps
 Check browser support for geolocation:
 Verify if the browser supports geolocation. Set options for high accuracy, a 5-second timeout, and no caching.
